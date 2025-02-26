@@ -1,4 +1,3 @@
-// document.getElementById("count-el").innerText= 10;
 let count =0;
 let countIncrement = document.getElementById("count-el");
 function increment(){
