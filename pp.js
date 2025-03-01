@@ -1,9 +1,6 @@
-let lap=0;
+let bonusPoints = 50;
+bonusPoints = bonusPoints + 50;
+bonusPoints = bonusPoints - 75;
+bonusPoints = bonusPoints + 45;
 
-function count(){
-    lap=lap+1;
-}
-count();
-count();
-count();
-console.log(lap); 
+console.log(bonusPoints);

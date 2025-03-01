@@ -3,3 +3,13 @@ body{
     background-size: cover;
     text-align: center;
 }
+
+#incButton{
+    background-color: blueviolet;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
