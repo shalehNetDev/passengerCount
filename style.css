@@ -4,7 +4,7 @@ body{
     text-align: center;
 }
 
-#incButton{
+.allButton{
     background-color: blueviolet;
     color: white;
     font-size: 18px;

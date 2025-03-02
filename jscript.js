@@ -6,4 +6,12 @@ function increment(){
     // document.getElementById("count-el").innerHTML=count;
 }
 
+let saveEl = document.getElementById("save-el");
+
+function save(){
+let countstr =" "+ count + " - ";
+saveEl.innerText += countstr;
+}
+
+
 
