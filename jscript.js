@@ -1,17 +1,18 @@
-let count =0;
-let countIncrement = document.getElementById("count-el");
-function increment(){
-    count = count + 1;
-    countIncrement.innerText = count;
-    // document.getElementById("count-el").innerHTML=count;
-}
-
-let saveEl = document.getElementById("save-el");
-
-function save(){
-let countstr =" "+ count + " - ";
-saveEl.innerText += countstr;
-}
-
-
-
+let count=0;
+        let passengerCount=document.getElementById("showCount")
+        function increment(){
+            count+=1
+            passengerCount.textContent="Passenger Entered: "+count
+        }
+        let savedPassengerCount=document.getElementById("savedPCount")
+        function saveCount(){
+            if(count>0){
+                let savedData=count + "- ";
+                savedPassengerCount.textContent+= savedData;
+                passengerCount.textContent="Passenger Entered: 0";
+                count=0;
+            }
+            else{
+                alert("No passenger to save")
+            }
+        }
